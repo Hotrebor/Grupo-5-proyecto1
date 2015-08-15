@@ -1,3 +1,19 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Instituto Tecnológico de Costa Rica
+// Alumno: Johnny Barboza Fllas
+// Profesor: Alfonso Chacon
+// 
+// Create Date:    14:48:16 08/09/2015 
+// Design Name: Máquina de estados tipo Mealy
+// Module Name:    Maquina  
+// Description: Una máquina de estados, basada en la de tipo Mealy, en la cual se muestra el funcionamiento de 
+// los estados en los que va avanzado y como va generando distintas salidas.
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments:
 module Maquina(clk, reset, humoa, glp, humom, fe, apagsis, registro_salidas, ledtb, ledprv, ext1, boc1, boc2, int_fe);
 	input clk, reset, fe, glp, apagsis, humoa, humom;
 	output registro_salidas, ledtb, ledprv, ext1, boc1, boc2, int_fe;
